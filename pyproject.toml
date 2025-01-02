@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nextgigai"
+version = "0.1.0"
+description = "AI-powered career acceleration platform"
+readme = "README.md"
+authors = [
+    { name = "NextGigAI Team", email = "your.email@example.com" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = ["ai", "career", "resume", "job search", "interview"]
+dependencies = [
+    "fastapi>=0.68.0",
+    "uvicorn>=0.15.0",
+    "pydantic>=1.8.2",
+    "python-multipart>=0.0.5",
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.4",
+    "sqlalchemy>=1.4.23",
+    "alembic>=1.7.1",
+    "psycopg2-binary>=2.9.1",
+    "aiohttp>=3.8.1",
+    "pyyaml>=6.0",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-asyncio",
+    "pytest-cov",
+    "black",
+    "isort",
+    "mypy",
+    "flake8",
+    "pre-commit",
+]
+
+[project.urls]
+Homepage = "https://github.com/VIP-Destiny/nxtg.ig.ai"
+Documentation = "https://github.com/VIP-Destiny/nxtg.ig.ai#readme"
+Repository = "https://github.com/VIP-Destiny/nxtg.ig.ai.git"
+Issues = "https://github.com/VIP-Destiny/nxtg.ig.ai/issues"
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
