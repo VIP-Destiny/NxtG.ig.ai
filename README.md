@@ -8,7 +8,7 @@
 > 🎯 NextGigAI: Your AI-powered career acceleration platform
 
 <div align="center">
-  <img src="docs/images/nextgigai-banner.png" alt="NextGigAI Platform" width="800"/>
+  <img src="docs/images/nxtg.ig.ai.webp" alt="NextGigAI Platform" width="800"/>
 </div>
 
 ## 🌟 Platform Overview
