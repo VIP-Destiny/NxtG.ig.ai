@@ -22,6 +22,7 @@ wheels/
 
 # Virtual Environment
 venv/
+.venv/
 ENV/
 env/
 .env
@@ -43,3 +44,6 @@ output/
 # Logs
 *.log
 logs/
+
+# My Notes
+.docs/
