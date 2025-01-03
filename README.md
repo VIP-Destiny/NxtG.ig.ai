@@ -8,7 +8,15 @@
 > 🎯 NextGigAI: Your AI-powered career acceleration platform
 
 <div align="center">
-  <img src="docs/images/nxtg.ig.ai.webp" alt="NextGigAI Platform" width="800"/>
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="docs/images/_GitHub-NxtGiGai-Platform.gif" type="image/gif">
+    <source media="(prefers-reduced-motion: reduce)" srcset="docs/images/_GitHub-NxtGiGai-Platform.png" type="image/png">
+    <img src="docs/images/_GitHub-NxtGiGai-Platform.png" alt="NextGigAI Platform Demo" width="800">
+  </picture>
+  
+  <video src="docs/images/_GitHub-NxtGiGai-Platform.mp4" width="800" autoplay loop muted playsinline poster="docs/images/_GitHub-NxtGiGai-Platform.png">
+    <img src="docs/images/_GitHub-NxtGiGai-Platform.gif" alt="NextGigAI Platform Demo" width="800"/>
+  </video>
 </div>
 
 ## 🌟 Platform Overview
